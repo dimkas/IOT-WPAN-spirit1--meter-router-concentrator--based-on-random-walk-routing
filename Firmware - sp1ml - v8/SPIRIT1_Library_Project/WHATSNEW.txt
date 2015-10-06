@@ -1,0 +1,33 @@
+/**
+* @file    WHATSNEW.txt
+* @author  VMA division - AMS
+* @version 3.2.0
+* @date    February 1, 2015
+* @brief   Changes against the prevoius version of SPIRIT1_Library.
+* @details
+*
+* THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
+* TIME. AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY
+* DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING
+* FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
+* CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+*
+* THIS SOURCE CODE IS PROTECTED BY A LICENSE.
+* FOR MORE INFORMATION PLEASE CAREFULLY READ THE LICENSE AGREEMENT FILE LOCATED
+* IN THE ROOT DIRECTORY OF THIS FIRMWARE PACKAGE.
+*
+* <h2><center>&copy; COPYRIGHT 2015 STMicroelectronics</center></h2>
+*/
+SPIRIT1_Library 3.2.0
+
+Changes against the previous version:
+- Module SPIRIT_Radio: Power interpolation curves are now different according to the band.
+ The power curve is interpolated with 3 linear curves chosen according to the PA register values.
+ Extraction of these curves are based on measurements on the divisional boards.
+ Accuracy is about 1.5dB.
+- Module SPIRIT_Radio: Added the possibility to enable or disable the VCO calibration WorkAround at RadioInit. Added the fcn SpiritRadioVcoCalibrationWAFB for this purpose.
+- Module SPIRIT_Radio: Minor bugfix in the getDatarate fcn.
+- Module SPIRIT_Timers: The Rx timeout and LDC timers are now computed in a fast way that minimizes the PRESCLAER (removed the loop over all the possible values).
+- Module SPIRIT_Management: the Rx workaround sets the SMPS switching frequency to 4.5MHz .
+- 2 Examples added: STack_Generic and Sniff .

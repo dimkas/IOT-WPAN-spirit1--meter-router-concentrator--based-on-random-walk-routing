@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\Spirit_Library_Project.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>BUILD_ALL</name>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_BasicGeneric_A</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_BasicGeneric_B</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_FifoHandler_A</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_FifoHandler_B</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_Ldcr_A</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_Ldcr_B</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_StackLlp_A</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_StackLlp_B</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_WMbusStd_A</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_WMbusStd_B</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_Csma_A</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_Csma_B</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_Sniff_A</configuration>
+      </member>
+      <member>
+        <project>Spirit_Library_Project</project>
+        <configuration>SDK_Sniff_B</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

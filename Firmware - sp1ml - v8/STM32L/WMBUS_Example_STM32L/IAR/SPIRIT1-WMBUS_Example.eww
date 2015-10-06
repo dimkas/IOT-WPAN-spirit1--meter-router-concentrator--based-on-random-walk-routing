@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\SPIRIT1-WMBUS_Example.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>build-all</name>
+      <member>
+        <project>SPIRIT1-WMBUS_Example</project>
+        <configuration>wmbus_vcom-concentrator-169</configuration>
+      </member>
+      <member>
+        <project>SPIRIT1-WMBUS_Example</project>
+        <configuration>wmbus_vcom-concentrator-868</configuration>
+      </member>
+      <member>
+        <project>SPIRIT1-WMBUS_Example</project>
+        <configuration>wmbus_vcom-meter-169</configuration>
+      </member>
+      <member>
+        <project>SPIRIT1-WMBUS_Example</project>
+        <configuration>wmbus_vcom-meter-868</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

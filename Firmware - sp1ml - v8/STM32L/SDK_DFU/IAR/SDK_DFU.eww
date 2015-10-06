@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\SDK_DFU.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>DFU_Batch_Build_ALL</name>
+      <member>
+        <project>SDK_DFU</project>
+        <configuration>Debug</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
