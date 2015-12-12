@@ -16,7 +16,7 @@ void send_spirit_msg(spirit_msg msg , Network* network) // use is_tx_fifo_full f
 {
 static uint8_t i =0;
 
-while (network->tx_fifo[i].state != EMPTY ) /* looking for empty packet to use */
+while (network->tx_fifo[i].state != EMPTY && i<MAX_SPIRIT_MSG ) /* looking for empty packet to use */
       {
       i++;
       }
